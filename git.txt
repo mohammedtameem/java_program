@@ -1,0 +1,62 @@
+git config --global user.name "mohammed"
+git config --global user.email "mdtameem555@gmail.com"
+
+git config user.name
+git config user.email
+
+git init 
+
+
+git add index.html
+git add .
+git log --oneline 
+git diff firstcommitid secondCommitid
+
+
+before staging
+--------------------------
+git checkout index.html
+
+After staging
+-------------
+
+git reset HEAD index.html
+git checkout index.html
+
+
+
+
+git branch
+---------------
+
+
+
+create a new branch
+------------------------- 
+
+git branch dev 
+git checkout dev 
+
+
+git merge dev 
+
+
+========================
+
+
+git remove -v 
+git remote add origin http://
+
+git fetch ---> vs pull 
+
+2 commit before 
+------------------
+git reset --hard commit-id
+git push -f 
+
+-------------------
+
+git revert head 
+git push 
+
+ 
